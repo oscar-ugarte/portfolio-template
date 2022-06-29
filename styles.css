@@ -5,6 +5,8 @@
   --primary-color: #3282B8;
   --primary-color-dark: #0F4C75;
   --accent-color: #FFF8F0;
+  --color-opcional-1: #748DA6 ;
+  --color-opcional-2: #11468F;
 }
 
 html {
@@ -20,8 +22,7 @@ body {
 .navbar {
   position: fixed;
   width: 100%;
-  /*background-color: var(--primary-color-dark);*/
-  background-color: #748DA6 ;
+  background-color: var(--color-opcional-1);
   z-index: 1;
 }
 
@@ -202,8 +203,7 @@ footer {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
-  /*background-color: var(--primary-color-dark);*/
-  background-color: #11468F ;
+  background-color: var(--color-opcional-2);
   color: var(--accent-color);
   padding: 20px;
 }
